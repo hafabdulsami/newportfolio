@@ -1,10 +1,10 @@
 import Navbar from "@/component/Navbar";
-
+import HeroSection from "@/component/HeroSection";
 export default function Home() {
   return (
     <div>
       <Navbar />
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <HeroSection />
     </div>
   );
 }
